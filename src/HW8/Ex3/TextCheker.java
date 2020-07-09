@@ -50,11 +50,12 @@ public class TextCheker {
                     oneBlackSntncs = oneBlackSntncs.substring(0,4).toUpperCase()+oneBlackSntncs.substring(4);
                     System.err.println(oneBlackSntncs+".\n");
                 }
-                 {
-
-                }
+                br1.close();
+                br.close();
             }else{
                 System.out.println("ПОЗДРАВЛЯЮ ТЕКСТ ПРОШЕЛ ЦЕНЗУРУ.");
+                br1.close();
+                br.close();
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -2,8 +2,9 @@ package HW8.Ex2;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.Serializable;
 
-public class TextFormater {
+public class TextFormater  {
 
     public TextFormater() {
     }
